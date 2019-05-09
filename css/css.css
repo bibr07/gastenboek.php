@@ -1,0 +1,195 @@
+html {
+    background-color: #e5d7a7;
+}
+
+h1 {
+    color: white;
+    font-size: 2.7em;
+    margin-top: 2.7em;
+}
+
+h2 {
+    color: rgb(97,111,62);
+    font-size: 2em;
+    text-align: center;
+}
+
+i {
+    color: #5B5643;
+}
+
+body {
+    color: #252119;
+}
+
+.reactiePlaatsen {
+    margin : auto;
+    width: 35%;
+    text-align: center;
+    color: rgb(97,111,62);
+}
+
+a {
+    color: inherit;
+}
+
+.filter {
+    margin : auto;
+    width: 35%;
+    text-align: center;
+    color: #4E84AF;
+}
+
+/************/
+/** HEADER **/
+/************/
+
+#titel {
+    margin: 5em;
+    background-color: rgba(97,111,62,0.6);
+    border-radius: 50%;
+    height: 20em;
+    width: 20em;
+    display: inline-block;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+header {
+    background-image: url("../img/blog-image-perfectbeachlaunch.jpg");
+    height: 30em;
+    background-size: cover;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+header ul li { 
+    display:  inline;
+}
+
+header ul li a {
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 2em;
+    color: white;
+    margin-top: 2em;
+}
+
+/****************/
+/** RECENSIES **/
+/****************/
+
+.recensies ul {
+    list-style-type: none;
+    position:relative;
+    left: 29%;
+}
+
+.recensies ul li {
+    border: 0.3em double #5B5643;
+    padding: 0.5em;
+    padding-left: 1em;
+    margin-right: 57em;
+    text-align: center;
+    color: #5B5643;
+    line-height: 1.5em;
+}
+
+/***********/
+/** FORM **/
+/***********/
+
+.kader {
+    border: 0.3em double #5B5643;
+    padding: 1em;
+    margin: 0 30%;
+    text-align: center;
+    color: #5B5643;
+    line-height: 1.5em;
+}
+
+.button {
+    -moz-box-shadow: 3px 4px 0px 0px #917b55;
+	-webkit-box-shadow: 3px 4px 0px 0px #917b55;
+	box-shadow: 3px 4px 0px 0px #917b55;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c1a472), color-stop(1, #a99064));
+	background: -moz-linear-gradient(top, #c1a472 5%, #a99064 100%);
+	background: -webkit-linear-gradient(top, #c1a472 5%, #a99064 100%);
+	background: -o-linear-gradient(top, #c1a472 5%, #a99064 100%);
+	background: -ms-linear-gradient(top, #c1a472 5%, #a99064 100%);
+	background: linear-gradient(to bottom, #c1a472 5%, #a99064 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c1a472', endColorstr='#a99064',GradientType=0);
+	background-color: #c1a472;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 1px solid #d6bcd6;
+	display: inline-block;
+	cursor: pointer;
+	color: white;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 7px 25px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.button:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background: -moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: -webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: -o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: -ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+    color: #252119;
+}
+
+input[type=email], input[type=password], input[type=text], textarea  {
+    border-radius: 4px;
+    padding: 0.5em 2em;
+}
+
+label {
+    padding: 0.2em 0.2em 0.2em 0;
+    display: inline-block;
+}
+
+.col {
+    float: left;
+    width: 50%;
+}
+
+
+
+/*************/
+/** RATING **/
+/*************/
+
+
+.star {
+    color: #252119;
+    font-size:2em;
+    padding: 0 0.1em;
+}
+
+.star::before {
+    content: "\2606"; /*lege ster*/
+    color: rgb(97,111,62);
+    cursor: pinter;
+}
+
+.star.rated::before {
+    content: "\2605"; /*opgevulde ster*/
+    color: rgb(97,111,62);
+}
+
+em {
+    font-style:normal;
+}
